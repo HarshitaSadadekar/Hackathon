@@ -1,0 +1,32 @@
+h1{
+    text-align:center;
+    color:#523c3c;
+    font-family:serif;
+    text-shadow: #969393;
+    font-style:italic;
+}
+
+h2{
+   text-align: left; 
+   color:#574c4c;
+    font-family:serif;
+    font-style:italic;
+}
+ul{
+    border-width:2px;
+    border-style:solid;
+    border-color:#918888;
+    
+}
+
+li{
+    color:#5a5353;
+    font-family:serif;
+    font-style:italic; 
+
+}
+body{
+    background-color: rgba(123, 166, 247, 0.212);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
