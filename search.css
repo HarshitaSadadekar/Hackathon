@@ -1,0 +1,23 @@
+body{
+    background-color:  rgba(123, 166, 247, 0.212);
+}
+.log{
+    background-color:  rgb(13, 6, 31);
+    font-size: 50px;
+    color:cornsilk;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left : 100px;
+    margin-right: 100px;
+}
+.option{
+    text-align: center;
+    margin: 50px;
+    font-size: 2.5vw;
+}
+.l{
+    font-size: 50px;
+    color:rgb(20, 20, 18);
+    text-align: center;
+}
