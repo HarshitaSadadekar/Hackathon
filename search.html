@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search for doctors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="search.css">
+    <LINK REL="ICON" HREF="logo.png">
+</head>
+<body>
+    <div class="log">
+        SEARCH DOCTORS NEAR BY
+    </div>
+    <div class="l">
+        <form action="/action_page.php">
+            <label for="cars">Select category:</label>
+            <select name="cars" id="cars">
+              <option value="Audiologist">Audiologist</option>
+              <option value="Cardiologist">Cardiologist</option>
+              <option value="Dentist">Dentist</option>
+              <option value="Dermatologist">Dermatologist</option>
+              <option value="gynecologist">gynecologist</option>
+              <option value="Neurologist">Neurologist</option>
+
+              <option value="orthopedist">orthopaedist</option>
+
+
+            </select>
+            <br><br>
+            
+          </form>
+          <form class="a" action="/action_page.php" style="position:relative;left:240px;max-width:1000px">
+            <label for="cars">Enter location:</label>
+            <input type="text" placeholder="enter location.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+    </div>
+      </body>
+</body>
+</html>
